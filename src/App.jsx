@@ -5,7 +5,7 @@ import Input from "./assets/components/Input";
 
 const App = () => {
   const [MealData, setMealData] = useState([]);
-  const [area, setarea] = useState("Indian");
+  const [area, setarea] = useState("russian");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
